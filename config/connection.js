@@ -1,4 +1,4 @@
-// connecting mongoose data base Socialnetwork that holds networkapi.
+// connecting mongoose database to networkapi.
 const { connect, connection } = require("mongoose");
 
 const connectionString =
