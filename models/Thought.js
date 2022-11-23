@@ -1,5 +1,5 @@
 const { Schema, Types, model } = require("mongoose");
-const formatDate = require("../utils/date");
+const formatDate = require("../utils/dateFormat");
 
 // Creating my reaction schema and reaction can only be done in schema.
 const reactionSchema = new Schema({
